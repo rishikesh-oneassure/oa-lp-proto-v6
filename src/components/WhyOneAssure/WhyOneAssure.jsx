@@ -18,7 +18,7 @@ import { LiaHandshake } from "react-icons/lia";
 
 export default function WhyOneAssure() {
   return (
-    <SectionContainerLarge className="flex flex-col items-center text-center">
+    <SectionContainerLarge className="flex flex-col items-center text-center mb-12 md:mb-20">
       <div className="flex flex-col items-center gap-0.5">
         <BodySmall
           className={"uppercase text-primary-800 text-center tracking-widest"}

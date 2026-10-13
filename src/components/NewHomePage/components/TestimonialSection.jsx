@@ -42,7 +42,7 @@ const TestimonialSection = ({ story }) => {
   }, [currentIndex]);
 
   return (
-    <div className="ml-[calc(50%-50vw)]! mr-[calc(50%-50vw)]! py-12 md:py-32 w-screen bg-[linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url('/family-bg-img.jpg')] bg-cover bg-top mb-0">
+    <div className="ml-[calc(50%-50vw)]! mr-[calc(50%-50vw)]! py-12 md:py-32 w-screen bg-[linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url('/family-bg-img.jpg')] bg-cover bg-top mb-12 md:mb-20">
       <div className="mb-0 w-full overflow-hidden md:mb-0">
         <SectionContainerMedium className="flex flex-col !mb-0 !px-0">
           <div className="flex flex-col items-center text-center">

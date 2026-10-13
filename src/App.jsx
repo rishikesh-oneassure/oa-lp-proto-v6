@@ -14,10 +14,10 @@ export default function App() {
     <ProLayout>
       <Hero />
       <Impact />
+      <TestimonialSection story={testimonialStory} />
       <WhyOneAssure />
       <WhatToExpect />
       <Founder {...founderSection} />
-      <TestimonialSection story={testimonialStory} />
       <BeReady />
     </ProLayout>
   );

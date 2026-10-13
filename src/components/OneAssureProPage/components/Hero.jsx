@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <div
       id="hero"
-      className="relative h-fit w-full -mt-24 mb-12 pt-36 md:left-1/2 md:w-screen md:-translate-x-1/2 md:-mt-31.5 md:pt-43.5 lg:-mt-31 lg:pt-43"
+      className="relative h-fit w-full -mt-24 mb-12 md:mb-20 pt-36 md:left-1/2 md:w-screen md:-translate-x-1/2 md:-mt-31.5 md:pt-43.5 lg:-mt-31 lg:pt-43"
     >
       <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
         <div
@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
 
         <SectionContainerMedium className="relative flex min-w-0 flex-col-reverse px-0! mb-0! md:flex-row mx-auto">
-          <div className="mx-auto flex w-fit flex-col-reverse md:flex-row md:justify-center gap-4 md:gap-8 md:-translate-x-1/6">
+          <div className="mx-auto flex w-fit flex-col-reverse md:flex-row md:justify-center gap-4 md:gap-8">
             <div className="flex w-full md:w-[40%] md:h-full min-w-0 flex-col items-center justify-center bg-primary-800 p-6 md:p-8 text-white divide-y divide-primary-700 rounded-2xl *:w-full md:max-w-1/2">
               <div className="h-full flex flex-col justify-between">
                 <div className="flex items-start gap-1 py-3">
@@ -178,13 +178,13 @@ export default function Hero() {
       </div>
       <InsurerLogoMarquee className="relative z-1 mt-8 border-y border-primary-300 md:mt-14" />
 
-      {isDesktop && (
+      {/* {isDesktop && (
         <img
           src="/hero-img.png"
           alt=""
           className="w-300 absolute -right-38 bottom-37.5"
         />
-      )}
+      )} */}
     </div>
   );
 }

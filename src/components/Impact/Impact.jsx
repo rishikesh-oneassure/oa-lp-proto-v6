@@ -9,7 +9,7 @@ import {
 
 export default function Impact() {
   return (
-    <SectionContainer className="w-screen flex flex-col items-center gap-2 text-center">
+    <SectionContainer className="w-screen flex flex-col items-center gap-2 text-center !mb-0">
       <div className="flex flex-col items-center gap-0.5">
         <BodySmall
           className={"uppercase text-primary-800 text-center tracking-widest"}

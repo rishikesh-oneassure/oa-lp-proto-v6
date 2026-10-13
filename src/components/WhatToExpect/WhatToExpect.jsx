@@ -10,7 +10,7 @@ import {
 
 export default function WhatToExpect() {
   return (
-    <SectionContainerLarge className="flex flex-col items-center gap-2 text-center">
+    <SectionContainerLarge className="flex flex-col items-center gap-2 text-center mb-12 md:mb-20">
       <div className="flex flex-col items-center gap-0.5">
         <BodySmall
           className={"uppercase text-primary-800 text-center tracking-widest"}
